@@ -6,13 +6,12 @@ The designs were created to the following widths:
 - Desktop: 1440px
 
 */
-.padding {padding:10%;}
+.padding {padding:10% 10% 5% 10%;}
 .padding-left {padding-left:3%;}
 .margin-top {margin-top: 30px;}
-.margin-top2 {margin-top: 1.5rem;}
-.nopad {padding: 0; height: 80%;}
-.background1 {background-color: hsl(235, 46%, 20%);
-}
+.margin-top2 {margin-top: 1rem;}
+.nopad {padding: 0;height: 80%}
+.background1 {background-color: hsl(235, 46%, 20%);}
 .background2 {background-color: hsl(246, 80%, 60%);}
 .fontb {color:hsl(235, 45%, 61%);}
 .fontb2 {color: hsl(236, 100%, 87%);}
@@ -39,7 +38,7 @@ h1 {
 h2 {
   font-size:2.3rem;
   font-weight: 300;
-  padding-bottom: 50px;
+  padding-bottom: 10%;
 }
 h4 {
   font-size:18px;
@@ -49,6 +48,11 @@ p {
   margin-bottom:0.1rem;
 }
 button{color: inherit;}
+/* footer{
+  position: relative;
+  bottom: -50px;
+} */
+.container-fluid{width: 80%;}
 .butt{
   border: none;
   background-color: inherit;
@@ -75,25 +79,20 @@ button{color: inherit;}
 .icon2 {top:-2px;}
 .icon3 {top:-6px;}
 .icon4 {top:-12px;}
-
 .position {
   z-index:2;
   top:-25px;
-  height: 85%;
+  height: 90%;
 }
 .position2 {
   z-index:2;
   top:-10px;
-  height: 87%;
+  height: 90%;
 }
 .position3 {
   z-index:2;
   top:-50px;
-  height: 87%;
-}
-.container {
-  padding-left: 5%;
-  padding-right: 5%;
+  height: 90%;
 }
 .dots {
   float: right;
@@ -113,27 +112,27 @@ span:hover {
 }
 .work {
   background-color: hsl(15, 100%, 70%);
-  height: 44%;
+  height: 40%;
 }
 .play {
   background-color: hsl(195, 74%, 62%);
-  height: 44%;
+  height: 40%;
 }
 .study {
   background-color: hsl(348, 100%, 68%);
-  height: 44%;
+  height: 40%;
 }
 .exercise {
   background-color: hsl(145, 58%, 55%);
-  height: 44%;
+  height: 40%;
 }
 .social {
   background-color: hsl(264, 64%, 52%);
-  height: 44%;
+  height: 40%;
 }
 .self-care {
   background-color: hsl(43, 84%, 65%);
-  height: 44%;
+  height: 40%;
 }
 @media (max-width:768px) {
   h1 {
@@ -153,22 +152,21 @@ span:hover {
     margin-bottom: 0;
   }
   .row{
-    max-height: 20vh;
     margin-top: 10%;
+    height: 90%;
   }
-  .attribution{
+  /* .attribution{
     position: absolute;
     top: 10px;
     right:50%;
     display: inline-block;
-  }
+  } */
   .icons {
     max-width: 20%;
   }
   .butt {
     display: inline;
-    text-align: right;
-    padding: 0 11% 0 8%;
+    padding: 0 8% 0 7%;
     margin-top: 0;
   }
   .padding{padding: 8%;}
@@ -180,5 +178,23 @@ span:hover {
   .fontb3{
     display: inline;
     padding: 5% 5% 0 5%;
+  }
+  .work {
+    height: 45%;
+  }
+  .play {
+    height: 45%;
+  }
+  .study {
+    height: 45%;
+  }
+  .exercise {
+    height: 45%;
+  }
+  .social {
+    max-height: 45%;
+  }
+  .self-care {
+    height: 45%;
   }
 }
